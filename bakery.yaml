@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Enriqueta-Regular.ttf.ttx, Enriqueta-Bold.ttf.ttx, src/Enriqueta-Regular.otf.ttx,
+  src/Enriqueta-Bold.otf.ttx, src/Enriqueta-Regular-TTF.sfd, src/Enriqueta-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
